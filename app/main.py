@@ -1,12 +1,8 @@
-def hello_world(phrase: str) -> None:
-    if phrase:
-        print(f"Hello {phrase}!")
-    else:
-        print("Hello World!")
+def hello_world(phrase) -> None:
+    print(f"Hello {phrase}!")
 
 
-def main() -> None:
-    hello_world("")
+def main():
     hello_world("Pymenntos")
 
 
