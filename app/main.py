@@ -7,7 +7,7 @@ def hello_world(phrase: str) -> None:
 
 def main() -> None:
     hello_world("")
-    hello_world("Pymentos")
+    hello_world("Pymenntos")
 
 
 if __name__ == "__main__":
